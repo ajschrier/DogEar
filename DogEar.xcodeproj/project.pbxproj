@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E3863A1BC2381500928F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E386391BC2381500928F47 /* AppDelegate.swift */; };
+		09E3863C1BC2381500928F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3863B1BC2381500928F47 /* ViewController.swift */; };
+		09E3863F1BC2381500928F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E3863D1BC2381500928F47 /* Main.storyboard */; };
+		09E386421BC2381500928F47 /* DogEar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09E386401BC2381500928F47 /* DogEar.xcdatamodeld */; };
+		09E386441BC2381500928F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E386431BC2381500928F47 /* Assets.xcassets */; };
+		09E386471BC2381500928F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E386451BC2381500928F47 /* LaunchScreen.storyboard */; };
+		09E386521BC2381500928F47 /* DogEarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E386511BC2381500928F47 /* DogEarTests.swift */; };
+		09E3865D1BC2381500928F47 /* DogEarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3865C1BC2381500928F47 /* DogEarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09E3864E1BC2381500928F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09E3862E1BC2381500928F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E386351BC2381500928F47;
+			remoteInfo = DogEar;
+		};
+		09E386591BC2381500928F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09E3862E1BC2381500928F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E386351BC2381500928F47;
+			remoteInfo = DogEar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E386361BC2381500928F47 /* DogEar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E386391BC2381500928F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09E3863B1BC2381500928F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09E3863E1BC2381500928F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09E386411BC2381500928F47 /* DogEar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogEar.xcdatamodel; sourceTree = "<group>"; };
+		09E386431BC2381500928F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E386461BC2381500928F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09E386481BC2381500928F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E3864D1BC2381500928F47 /* DogEarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogEarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E386511BC2381500928F47 /* DogEarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEarTests.swift; sourceTree = "<group>"; };
+		09E386531BC2381500928F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E386581BC2381500928F47 /* DogEarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogEarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E3865C1BC2381500928F47 /* DogEarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEarUITests.swift; sourceTree = "<group>"; };
+		09E3865E1BC2381500928F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E386331BC2381500928F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3864A1BC2381500928F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E386551BC2381500928F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E3862D1BC2381500928F47 = {
+			isa = PBXGroup;
+			children = (
+				09E386381BC2381500928F47 /* DogEar */,
+				09E386501BC2381500928F47 /* DogEarTests */,
+				09E3865B1BC2381500928F47 /* DogEarUITests */,
+				09E386371BC2381500928F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09E386371BC2381500928F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E386361BC2381500928F47 /* DogEar.app */,
+				09E3864D1BC2381500928F47 /* DogEarTests.xctest */,
+				09E386581BC2381500928F47 /* DogEarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E386381BC2381500928F47 /* DogEar */ = {
+			isa = PBXGroup;
+			children = (
+				09E386391BC2381500928F47 /* AppDelegate.swift */,
+				09E3863B1BC2381500928F47 /* ViewController.swift */,
+				09E3863D1BC2381500928F47 /* Main.storyboard */,
+				09E386431BC2381500928F47 /* Assets.xcassets */,
+				09E386451BC2381500928F47 /* LaunchScreen.storyboard */,
+				09E386481BC2381500928F47 /* Info.plist */,
+				09E386401BC2381500928F47 /* DogEar.xcdatamodeld */,
+			);
+			path = DogEar;
+			sourceTree = "<group>";
+		};
+		09E386501BC2381500928F47 /* DogEarTests */ = {
+			isa = PBXGroup;
+			children = (
+				09E386511BC2381500928F47 /* DogEarTests.swift */,
+				09E386531BC2381500928F47 /* Info.plist */,
+			);
+			path = DogEarTests;
+			sourceTree = "<group>";
+		};
+		09E3865B1BC2381500928F47 /* DogEarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09E3865C1BC2381500928F47 /* DogEarUITests.swift */,
+				09E3865E1BC2381500928F47 /* Info.plist */,
+			);
+			path = DogEarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E386351BC2381500928F47 /* DogEar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E386611BC2381500928F47 /* Build configuration list for PBXNativeTarget "DogEar" */;
+			buildPhases = (
+				09E386321BC2381500928F47 /* Sources */,
+				09E386331BC2381500928F47 /* Frameworks */,
+				09E386341BC2381500928F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogEar;
+			productName = DogEar;
+			productReference = 09E386361BC2381500928F47 /* DogEar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09E3864C1BC2381500928F47 /* DogEarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E386641BC2381500928F47 /* Build configuration list for PBXNativeTarget "DogEarTests" */;
+			buildPhases = (
+				09E386491BC2381500928F47 /* Sources */,
+				09E3864A1BC2381500928F47 /* Frameworks */,
+				09E3864B1BC2381500928F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E3864F1BC2381500928F47 /* PBXTargetDependency */,
+			);
+			name = DogEarTests;
+			productName = DogEarTests;
+			productReference = 09E3864D1BC2381500928F47 /* DogEarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09E386571BC2381500928F47 /* DogEarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E386671BC2381500928F47 /* Build configuration list for PBXNativeTarget "DogEarUITests" */;
+			buildPhases = (
+				09E386541BC2381500928F47 /* Sources */,
+				09E386551BC2381500928F47 /* Frameworks */,
+				09E386561BC2381500928F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E3865A1BC2381500928F47 /* PBXTargetDependency */,
+			);
+			name = DogEarUITests;
+			productName = DogEarUITests;
+			productReference = 09E386581BC2381500928F47 /* DogEarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E3862E1BC2381500928F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "AJ Schrier";
+				TargetAttributes = {
+					09E386351BC2381500928F47 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					09E3864C1BC2381500928F47 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 09E386351BC2381500928F47;
+					};
+					09E386571BC2381500928F47 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 09E386351BC2381500928F47;
+					};
+				};
+			};
+			buildConfigurationList = 09E386311BC2381500928F47 /* Build configuration list for PBXProject "DogEar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E3862D1BC2381500928F47;
+			productRefGroup = 09E386371BC2381500928F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E386351BC2381500928F47 /* DogEar */,
+				09E3864C1BC2381500928F47 /* DogEarTests */,
+				09E386571BC2381500928F47 /* DogEarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E386341BC2381500928F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E386471BC2381500928F47 /* LaunchScreen.storyboard in Resources */,
+				09E386441BC2381500928F47 /* Assets.xcassets in Resources */,
+				09E3863F1BC2381500928F47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3864B1BC2381500928F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E386561BC2381500928F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E386321BC2381500928F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E3863C1BC2381500928F47 /* ViewController.swift in Sources */,
+				09E3863A1BC2381500928F47 /* AppDelegate.swift in Sources */,
+				09E386421BC2381500928F47 /* DogEar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E386491BC2381500928F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E386521BC2381500928F47 /* DogEarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E386541BC2381500928F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E3865D1BC2381500928F47 /* DogEarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09E3864F1BC2381500928F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09E386351BC2381500928F47 /* DogEar */;
+			targetProxy = 09E3864E1BC2381500928F47 /* PBXContainerItemProxy */;
+		};
+		09E3865A1BC2381500928F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09E386351BC2381500928F47 /* DogEar */;
+			targetProxy = 09E386591BC2381500928F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09E3863D1BC2381500928F47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E3863E1BC2381500928F47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09E386451BC2381500928F47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E386461BC2381500928F47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E3865F1BC2381500928F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09E386601BC2381500928F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E386621BC2381500928F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DogEar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.DogEar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09E386631BC2381500928F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DogEar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.DogEar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09E386651BC2381500928F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DogEarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.DogEarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogEar.app/DogEar";
+			};
+			name = Debug;
+		};
+		09E386661BC2381500928F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DogEarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.DogEarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogEar.app/DogEar";
+			};
+			name = Release;
+		};
+		09E386681BC2381500928F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DogEarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.DogEarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DogEar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		09E386691BC2381500928F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DogEarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.DogEarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DogEar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E386311BC2381500928F47 /* Build configuration list for PBXProject "DogEar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E3865F1BC2381500928F47 /* Debug */,
+				09E386601BC2381500928F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E386611BC2381500928F47 /* Build configuration list for PBXNativeTarget "DogEar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E386621BC2381500928F47 /* Debug */,
+				09E386631BC2381500928F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09E386641BC2381500928F47 /* Build configuration list for PBXNativeTarget "DogEarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E386651BC2381500928F47 /* Debug */,
+				09E386661BC2381500928F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09E386671BC2381500928F47 /* Build configuration list for PBXNativeTarget "DogEarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E386681BC2381500928F47 /* Debug */,
+				09E386691BC2381500928F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09E386401BC2381500928F47 /* DogEar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09E386411BC2381500928F47 /* DogEar.xcdatamodel */,
+			);
+			currentVersion = 09E386411BC2381500928F47 /* DogEar.xcdatamodel */;
+			path = DogEar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09E3862E1BC2381500928F47 /* Project object */;
+}
