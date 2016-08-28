@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  DogEar
 //
-//  Created by AJ Schrier on 10/4/15.
-//  Copyright © 2015 AJ Schrier. All rights reserved.
+//  Created by AJ Schrier on 8/28/16.
+//  Copyright © 2016 AJ Schrier. All rights reserved.
 //
 
 import UIKit

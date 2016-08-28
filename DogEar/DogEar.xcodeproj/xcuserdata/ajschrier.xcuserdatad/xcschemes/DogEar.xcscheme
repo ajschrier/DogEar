@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09E386351BC2381500928F47"
+               BlueprintIdentifier = "098F04E21D72D402001D62D2"
                BuildableName = "DogEar.app"
                BlueprintName = "DogEar"
                ReferencedContainer = "container:DogEar.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09E3864C1BC2381500928F47"
+               BlueprintIdentifier = "098F04F61D72D403001D62D2"
                BuildableName = "DogEarTests.xctest"
                BlueprintName = "DogEarTests"
                ReferencedContainer = "container:DogEar.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09E386571BC2381500928F47"
+               BlueprintIdentifier = "098F05011D72D403001D62D2"
                BuildableName = "DogEarUITests.xctest"
                BlueprintName = "DogEarUITests"
                ReferencedContainer = "container:DogEar.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09E386351BC2381500928F47"
+            BlueprintIdentifier = "098F04E21D72D402001D62D2"
             BuildableName = "DogEar.app"
             BlueprintName = "DogEar"
             ReferencedContainer = "container:DogEar.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09E386351BC2381500928F47"
+            BlueprintIdentifier = "098F04E21D72D402001D62D2"
             BuildableName = "DogEar.app"
             BlueprintName = "DogEar"
             ReferencedContainer = "container:DogEar.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09E386351BC2381500928F47"
+            BlueprintIdentifier = "098F04E21D72D402001D62D2"
             BuildableName = "DogEar.app"
             BlueprintName = "DogEar"
             ReferencedContainer = "container:DogEar.xcodeproj">
